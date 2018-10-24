@@ -7,13 +7,15 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		294C0A8A2180CF740017389B /* FXPageControl.h in Headers */ = {isa = PBXBuildFile; fileRef = 294C0A882180CF740017389B /* FXPageControl.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		294C0A922180CF860017389B /* FXPageControl.h in Headers */ = {isa = PBXBuildFile; fileRef = 294C0A902180CF860017389B /* FXPageControl.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		294C0A932180CF860017389B /* FXPageControl.m in Sources */ = {isa = PBXBuildFile; fileRef = 294C0A912180CF860017389B /* FXPageControl.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
 		294C0A852180CF740017389B /* FXPageControl.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = FXPageControl.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		294C0A882180CF740017389B /* FXPageControl.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = FXPageControl.h; sourceTree = "<group>"; };
 		294C0A892180CF740017389B /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		294C0A902180CF860017389B /* FXPageControl.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = FXPageControl.h; path = ../../FXPageControl.h; sourceTree = "<group>"; };
+		294C0A912180CF860017389B /* FXPageControl.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = FXPageControl.m; path = ../../FXPageControl.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -46,7 +48,8 @@
 		294C0A872180CF740017389B /* FXPageControl */ = {
 			isa = PBXGroup;
 			children = (
-				294C0A882180CF740017389B /* FXPageControl.h */,
+				294C0A902180CF860017389B /* FXPageControl.h */,
+				294C0A912180CF860017389B /* FXPageControl.m */,
 				294C0A892180CF740017389B /* Info.plist */,
 			);
 			path = FXPageControl;
@@ -59,7 +62,7 @@
 			isa = PBXHeadersBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				294C0A8A2180CF740017389B /* FXPageControl.h in Headers */,
+				294C0A922180CF860017389B /* FXPageControl.h in Headers */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -130,6 +133,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				294C0A932180CF860017389B /* FXPageControl.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
